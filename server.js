@@ -37,6 +37,6 @@ app.get('/about', function (req, res) {
 
 
 
-app.listen(3000, () => {
-    console.log(`Escuchando peticiones el puerto ${port}`);
+app.listen(port, () => {
+    console.log(`Escuchando peticiones del puerto ${port}`);
 })
